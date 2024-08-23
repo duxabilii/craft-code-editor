@@ -80,7 +80,6 @@ class CodeEditor extends Module implements BootstrapInterface
         $this->registerComponents();
         // Register our event handlers
         $this->registerEventHandlers();
-        Craft::info('CodeEditor module bootstrapped', __METHOD__);
     }
 
     // Protected Methods
